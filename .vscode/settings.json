@@ -1,0 +1,81 @@
+{
+  "scm.experimental.showSyncView": false,
+  "scm.showIncomingChanges": false,
+  "scm.showOutgoingChanges": false,
+  "editor.pasteAs.enabled": true,
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": true,
+  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.dragAndDrop": false,
+  "editor.autoIndent": "full",
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "editor.formatOnPaste": true,
+  "editor.smoothScrolling": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "vim.useCtrlKeys": false ,
+  "vim.handleKeys": {
+    "<C-E>": true,
+    "delete": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "off",
+  "diffEditor.maxComputationTime": 0,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.revealIfOpen": true,
+  "markdown-preview-github-styles.colorTheme": "light",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
+    "sql": true
+  },
+  "azureFunctions.enableRemoteDebugging": true,
+  "debug.openDebug": "neverOpen",
+  "editor.stickyScroll.enabled": true,
+  "sonarlint.rules": {
+    "typescript:S6478": {
+      "level": "off"
+    },
+    "javascript:S125": {
+      "level": "off"
+    }
+  },
+  "liveshare.allowGuestDebugControl": true,
+  "[csharp]": {
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+  },
+  // "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}"
+  "window.title": "${rootName} ${separator} ${activeEditorShort}",
+  "remote.SSH.remotePlatform": {
+    "192.168.1.10": "macOS"
+  },
+  "redhat.telemetry.enabled": false,
+  "sqltools.highlightQuery": false,
+  "mssql.connections": [
+    {
+      "server": "<REDACTED>",
+      "database": "<REDACTED>",
+      "authenticationType": "Integrated",
+      "profileName": "<REDACTED>"
+    }
+  ],
+  "workbench.colorTheme": "Default Dark+",
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "window.commandCenter": false,
+  "git.mergeEditor": false,
+  "git.openRepositoryInParentFolders": "never",
+  "git.enableStatusBarSync": false,
+  "git.rebaseWhenSync": true
+  // "github.copilot.advanced": {
+  
+  // }
+}
